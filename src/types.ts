@@ -1,17 +1,17 @@
+export interface VideoMetadata {
+  title: string;
+  thumbnail_url: string;
+}
+
 export interface DownloadOption {
   key: string;
   label: string;
   quality: string;
 }
 
-export interface VideoMetadata {
-  title: string;
-  thumbnail_url: string;
-  author_name: string;
-}
-
-export interface DownloadProgress {
-  success: number;
-  progress?: number;
+export interface DownloadResponse {
+  id: string;
+  success?: number;
   download_url?: string;
+  progress?: number;
 }

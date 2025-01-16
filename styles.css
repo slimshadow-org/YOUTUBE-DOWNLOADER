@@ -1,0 +1,82 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#videoInfo {
+  margin-bottom: 20px;
+}
+
+#videoThumbnail {
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+select {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#progressContainer {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  display: none; /* Initially hidden */
+}
+
+#progressBar {
+  width: 0%;
+  height: 30px;
+  background-color: #4CAF50;
+  border-radius: 4px;
+}
+
+#downloadLink {
+  display: none; /* Initially hidden */
+}
+
+#message {
+  margin-top: 15px;
+  font-weight: bold;
+}
